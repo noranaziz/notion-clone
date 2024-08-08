@@ -16,6 +16,9 @@ export const Logo = () => {
                 width = "40"
                 alt = "logo"
             />
+            <p className = {cn("font-semibold", font.className)}>
+                Notion 2.0
+            </p>
         </div>
     )
 }
